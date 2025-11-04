@@ -36,7 +36,7 @@ mandatory_start: update message
 
 bonus_start: update message
 	@tput setaf 6
-	make bonus -C $(LIBFT_PATH)
+	make -C $(LIBFT_PATH)
 	@tput setaf 5 && echo [Bonus]
 
 update:
